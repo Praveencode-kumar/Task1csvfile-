@@ -33,5 +33,3 @@ with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(Userdetails)
     csvwriter.writerows(rows)
-
-
